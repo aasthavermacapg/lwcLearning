@@ -1,0 +1,15 @@
+:host{
+    display: block;
+    background-color: bisque;
+    color:blueviolet;
+}
+:host(.blue){
+    display: block;
+    background-color: green;
+    color:yellowgreen;
+}
+/* p{
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+} */

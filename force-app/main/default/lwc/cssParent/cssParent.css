@@ -1,0 +1,15 @@
+h1{
+    background-color: black;
+    font-size: 15px;
+    color: aquamarine;
+}
+/* c-css-child{
+    display: block;
+    background-color: bisque;
+    color:blueviolet;
+} */
+p{
+    font-size: 20px;
+    background-color: black;
+    color: yellow;
+}
