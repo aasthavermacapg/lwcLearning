@@ -4,7 +4,6 @@
             component.set("v.messageReceived", message.getParam("lmsData").value);
         }
     },
-    
     inputHandler : function(component, event){
         console.log(event.target.value);
         component.set("v.messageValue", event.target.value);
@@ -18,5 +17,4 @@
         }
         component.find("SampleMessageChannel").publish(message);
     }
-    
 })
