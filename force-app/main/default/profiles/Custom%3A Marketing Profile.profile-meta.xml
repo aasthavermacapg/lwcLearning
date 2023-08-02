@@ -6,6 +6,10 @@
         <visible>false</visible>
     </applicationVisibilities>
     <custom>true</custom>
+    <pageAccesses>
+        <apexPage>lmsVisualforcePage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <tabVisibilities>
         <tab>Components_Communication</tab>
         <visibility>DefaultOn</visibility>
@@ -19,11 +23,19 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Lightning_Messaging_Service</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Quiz_App</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Reusable_Components</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Static_Resource_Context_and_Toast</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -29,6 +29,12 @@
                 <identifier>c_cssParent</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>auraLwcCommunication</componentName>
+                <identifier>c_auraLwcCommunication</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
