@@ -11,6 +11,7 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Zero To Hero in LWC</label>
     <navType>Standard</navType>
+    <tabs>Memory_Game</tabs>
     <tabs>LWC_fundamentals</tabs>
     <tabs>Lightning_Messaging_Service</tabs>
     <tabs>Lifecycle_Hooks</tabs>

@@ -45,6 +45,24 @@
                 <identifier>c_checkPermissions</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>formFactors</componentName>
+                <identifier>c_formFactors</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>userInformation</componentName>
+                <identifier>c_userInformation</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>toastNotifications</componentName>
+                <identifier>c_toastNotifications</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
