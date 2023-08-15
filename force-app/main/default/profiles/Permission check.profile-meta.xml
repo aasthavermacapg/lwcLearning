@@ -199,6 +199,10 @@
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
+        <tab>Base_Lightning_Components</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Components_Communication</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>

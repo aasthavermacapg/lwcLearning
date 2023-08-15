@@ -224,6 +224,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>recordForm</componentName>
+                <identifier>c_recordForm</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>recordIdAndObjectName</componentName>
                 <identifier>c_recordIdAndObjectName</identifier>
             </componentInstance>
