@@ -12,6 +12,7 @@
     <label>Zero To Hero in LWC</label>
     <navType>Standard</navType>
     <tabs>Memory_Game</tabs>
+    <tabs>LDS_wire_adapters_and_functions</tabs>
     <tabs>Base_Lightning_Components</tabs>
     <tabs>Navigation_Service</tabs>
     <tabs>LWC_fundamentals</tabs>

@@ -207,6 +207,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>LDS_wire_adapters_and_functions</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>LWC_fundamentals</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
