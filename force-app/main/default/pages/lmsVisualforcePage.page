@@ -1,5 +1,5 @@
 <apex:page lightningStylesheets="true">
-    <apex:slds/>
+    <apex:slds />
     <div class="scope">
         <!-- here html code will come -->
         <div class="slds-p-around_medium">
@@ -45,6 +45,3 @@
         
     </script>
 </apex:page>
-
-
-    
