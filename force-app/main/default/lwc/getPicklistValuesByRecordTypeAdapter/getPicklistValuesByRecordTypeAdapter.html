@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="getPicklistValuesByRecordType Adapter">
+        <template if:true={ratingOptions}>
+            <div class="slds-m-around_medium">
+
+                <lightning-combobox
+                name="rating"
+                label="Rating"
+                value={ratingSelected}
+                placeholder="Select Rating"
+                options={ratingOptions}
+                onchange={handleChange} ></lightning-combobox>
+                
+                <template if:true={ratingSelected}>Selected Rating is : {ratingSelected}</template>
+            </div>
+        </template>
+        <template if:true={industryOptions}>
+            <div class="slds-m-around_medium">
+
+                <lightning-combobox
+                name="industry"
+                label="Industry"
+                value={industrySelected}
+                placeholder="Select Industry"
+                options={industryOptions}
+                onchange={handleChange} ></lightning-combobox>
+                <!-- this syntax is available in component library -->
+                
+                <template if:true={industrySelected}>Selected Industry is : {industrySelected}</template>
+            </div>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="updateRecord function">
+        <div class="slds-m-around_medium">
+            <lightning-datatable key-field="Id" data={contacts} columns={columns} hide-checkbox-column draft-values={draftValues} onsave={handleSave}>
+        </lightning-datatable>
+        <!-- got it from component library -->
+        </div>
+    </lightning-card>
+</template>
