@@ -39,6 +39,24 @@
                 <identifier>c_querySelector</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>age</name>
+                    <value>9</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>heading</name>
+                    <value>Meta config</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>levels</name>
+                    <value>Low</value>
+                </componentInstanceProperties>
+                <componentName>lwcConfig</componentName>
+                <identifier>c_lwcConfig</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>

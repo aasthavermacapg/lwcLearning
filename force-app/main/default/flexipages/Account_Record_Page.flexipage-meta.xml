@@ -224,6 +224,19 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>heading</name>
+                    <value>Meta config in lwc</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>recordId</name>
+                </componentInstanceProperties>
+                <componentName>lwcConfig</componentName>
+                <identifier>c_lwcConfig</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>getRecordUiAdapter</componentName>
                 <identifier>c_getRecordUiAdapter</identifier>
             </componentInstance>
