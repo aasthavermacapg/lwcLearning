@@ -11,8 +11,11 @@
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Zero To Hero in LWC</label>
     <navType>Standard</navType>
+    <tabs>Book_Listing_App</tabs>
     <tabs>Memory_Game</tabs>
     <tabs>LDS_wire_adapters_and_functions</tabs>
+    <tabs>CRUD_uiRecordAPI</tabs>
+    <tabs>APEX_in_LWC</tabs>
     <tabs>Base_Lightning_Components</tabs>
     <tabs>Navigation_Service</tabs>
     <tabs>LWC_fundamentals</tabs>

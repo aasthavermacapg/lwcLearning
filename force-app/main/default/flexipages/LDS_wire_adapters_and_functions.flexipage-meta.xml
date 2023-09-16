@@ -7,20 +7,46 @@
                 <identifier>c_wireServiceAndFetchUserDetails</identifier>
             </componentInstance>
         </itemInstances>
-        <name>region1</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getObjectInfoAdapter</componentName>
+                <identifier>c_getObjectInfoAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getPicklistValuesAdapter</componentName>
+                <identifier>c_getPicklistValuesAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getPicklistValuesByRecordTypeAdapter</componentName>
+                <identifier>c_getPicklistValuesByRecordTypeAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>region2</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <name>region3</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getNavItemsAdapter</componentName>
+                <identifier>c_getNavItemsAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getListUiAdapter</componentName>
+                <identifier>c_getListUiAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>LDS wire adapters and functions</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateThreeColumns</name>
+        <name>flexipage:appHomeTemplateTwoColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>

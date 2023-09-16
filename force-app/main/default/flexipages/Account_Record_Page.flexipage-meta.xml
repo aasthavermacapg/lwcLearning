@@ -224,6 +224,24 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>getRecordUiAdapter</componentName>
+                <identifier>c_getRecordUiAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getFieldValue_getFieldDisplayValueAdapter</componentName>
+                <identifier>c_getFieldValue_getFieldDisplayValueAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRecordAdapter</componentName>
+                <identifier>c_getRecordAdapter</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentName>recordForm</componentName>
                 <identifier>c_recordForm</identifier>
             </componentInstance>
