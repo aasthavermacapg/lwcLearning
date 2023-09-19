@@ -9,6 +9,14 @@
         <apexClass>AccountController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>pdfController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>pdfPageController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <pageAccesses>
         <apexPage>lmsVisualforcePage</apexPage>
@@ -16,6 +24,10 @@
     </pageAccesses>
     <pageAccesses>
         <apexPage>navigationVfPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>renderAsPDF</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <tabVisibilities>
@@ -44,6 +56,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>LWC_fundamentals</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>LWC_in_Lightning_Tab</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
