@@ -31,7 +31,7 @@ export default class PdfGeneration extends LightningElement {
         console.log(content.outerHTML);
         generatePDF({recordId: this.recordId, htmlData: content.outerHTML}).then(result=>{
             console.log("attachment id", result);
-            window.open(`https://energy-force-8859-dev-ed.scratch.file.force.com/servlet/servlet.FileDownload?file=${result.Id}`)
+            window.open(`https://enterprise-data-9502-dev-ed.scratch.file.force.com/servlet/servlet.FileDownload?file=${result.Id}`)
         }).catch(error=>{
             console.error(error);
         })

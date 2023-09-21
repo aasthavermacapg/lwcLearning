@@ -10,6 +10,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>MapControllerLwc</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>pdfController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -68,6 +72,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Lightning_Messaging_Service</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Maps_in_LWC</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
