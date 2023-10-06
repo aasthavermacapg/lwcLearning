@@ -1,0 +1,31 @@
+<template>
+    <lightning-card title="Modal Component">
+        <div class="slds-m-around_medium">
+            <lightning-button vsriant="brand" label="Open Modal" onclick={openHandler}></lightning-button>
+        </div>
+        <div class="slds-m-around_medium">
+            <lightning-button vsriant="brand" label="Open Second Modal" onclick={openSecondHandler}></lightning-button>
+        </div>
+    </lightning-card>
+    <template if:true={isOpen}>
+        <c-modal onclose={closeHandler}>
+            <h1 slot="title">Modal header</h1>
+            <p>Sit nulla est ex deserunt exercitation anim occaecat. Nostrud ullamco deserunt aute id consequat veniam incididunt duis in sint irure nisi. Mollit officia cillum Lorem ullamco minim nostrud elit officia tempor esse quis. Cillum sunt ad dolore quis aute consequat ipsum magna exercitation reprehenderit magna. Tempor cupidatat consequat elit dolor adipisicing.</p>
+            <div slot="footer">
+                <button class="slds-button slds-button_neutral" onclick={closeHandler}>Cancel</button>
+                <button class="slds-button slds-button_brand">Save</button>
+            </div>
+        </c-modal>
+    </template>
+
+    <template if:true={isOpenSecond}>
+        <c-modal onclose={closeSecondHandler}>
+            <h1 slot="title">Second Modal header</h1>
+            <p>Hello we are testing reusability</p>
+            <div slot="footer">
+                <button class="slds-button slds-button_neutral" onclick={closeSecondHandler}>Cancel</button>
+                <button class="slds-button slds-button_brand">Save</button>
+            </div>
+        </c-modal>
+    </template>
+</template>

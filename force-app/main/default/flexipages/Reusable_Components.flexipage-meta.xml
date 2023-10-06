@@ -7,16 +7,26 @@
                 <identifier>c_reusableComponent</identifier>
             </componentInstance>
         </itemInstances>
-        <name>column1</name>
+        <name>region1</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <name>column2</name>
+        <itemInstances>
+            <componentInstance>
+                <componentName>modalWrapper</componentName>
+                <identifier>c_modalWrapper</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>region2</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Reusable Components</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateTwoColumns</name>
+        <name>flexipage:appHomeTemplateThreeColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>
