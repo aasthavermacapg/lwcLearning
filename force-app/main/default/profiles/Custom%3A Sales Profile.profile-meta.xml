@@ -18,6 +18,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunityController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>pdfController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -52,6 +56,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>CRUD_uiRecordAPI</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Charts_in_LWC</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

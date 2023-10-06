@@ -55,6 +55,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Charts_in_LWC</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Components_Communication</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
