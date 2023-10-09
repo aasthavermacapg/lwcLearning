@@ -17,6 +17,12 @@
                 <identifier>c_modalWrapper</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>csvGeneration</componentName>
+                <identifier>c_csvGeneration</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
