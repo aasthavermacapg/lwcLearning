@@ -71,6 +71,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Custom_Carousal_using_LWC</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Filtering_Sorting</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
