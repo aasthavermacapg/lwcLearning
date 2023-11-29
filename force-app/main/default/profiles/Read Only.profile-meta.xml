@@ -34,6 +34,9 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+    </layoutAssignments>
     <pageAccesses>
         <apexPage>lmsVisualforcePage</apexPage>
         <enabled>false</enabled>
@@ -48,6 +51,10 @@
     </pageAccesses>
     <tabVisibilities>
         <tab>APEX_in_LWC</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>After_section_26</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -124,6 +131,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Styling_in_CSS</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

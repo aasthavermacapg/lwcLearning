@@ -51,6 +51,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>After_section_26</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Base_Lightning_Components</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
