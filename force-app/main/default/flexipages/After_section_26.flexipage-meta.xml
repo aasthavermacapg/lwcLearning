@@ -21,6 +21,12 @@
                 <identifier>c_inputIcon</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>treeGrid</componentName>
+                <identifier>c_treeGrid</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
