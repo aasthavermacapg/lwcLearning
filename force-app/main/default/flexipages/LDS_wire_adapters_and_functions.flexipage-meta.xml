@@ -41,6 +41,12 @@
                 <identifier>c_getListUiAdapter</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListsInfo</componentName>
+                <identifier>c_getRelatedListsInfo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
