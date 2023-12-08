@@ -59,6 +59,12 @@
                 <identifier>c_getRelatedListsRecords</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>getRelatedListInfos</componentName>
+                <identifier>c_getRelatedListInfos</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
