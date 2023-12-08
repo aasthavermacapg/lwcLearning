@@ -39,6 +39,12 @@
                 <identifier>c_lightningAlertDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningConfirmDemo</componentName>
+                <identifier>c_lightningConfirmDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
