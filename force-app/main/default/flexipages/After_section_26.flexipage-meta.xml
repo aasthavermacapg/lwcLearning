@@ -27,6 +27,12 @@
                 <identifier>c_treeGrid</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningAlertDemo</componentName>
+                <identifier>c_lightningAlertDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>

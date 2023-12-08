@@ -33,6 +33,12 @@
                 <identifier>c_recordEditForm</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningAlertDemo</componentName>
+                <identifier>c_lightningAlertDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
