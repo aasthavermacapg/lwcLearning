@@ -39,6 +39,12 @@
                 <identifier>c_lightningConfirmDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>lightningPromptDemo</componentName>
+                <identifier>c_lightningPromptDemo</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>
