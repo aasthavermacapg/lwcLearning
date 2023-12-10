@@ -73,6 +73,12 @@
                 <identifier>c_getRelatedListInfos</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>newConditionalDirectives</componentName>
+                <identifier>c_newConditionalDirectives</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column2</name>
         <type>Region</type>
     </flexiPageRegions>
