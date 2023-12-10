@@ -224,6 +224,12 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>refreshStandardView</componentName>
+                <identifier>c_refreshStandardView</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>heading</name>
                     <value>Meta config in lwc</value>
