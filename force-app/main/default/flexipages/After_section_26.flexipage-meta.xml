@@ -45,6 +45,12 @@
                 <identifier>c_lightningPromptDemo</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>refs</componentName>
+                <identifier>c_refs</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>column1</name>
         <type>Region</type>
     </flexiPageRegions>

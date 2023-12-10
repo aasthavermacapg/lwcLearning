@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="lwc:ref">
+        <div class="slds-m-around_medium">
+
+            <!-- get the value from dom -->
+            <lightning-input label="Name" lwc:ref="nameRef"></lightning-input>
+            <lightning-input label="Age" lwc:ref="ageRef"></lightning-input>
+            <lightning-input label="New Age" lwc:ref="ageRef"></lightning-input>
+            <lightning-button label="Submit" class="slds-grid slds-m-top_medium" onclick={submitHandler}></lightning-button>
+
+            <!-- set the value on dom
+            so whatever the value we're enteing above we'll get here -->
+            <div lwc:ref="responseRef"></div>
+        </div>
+    </lightning-card>
+</template>
