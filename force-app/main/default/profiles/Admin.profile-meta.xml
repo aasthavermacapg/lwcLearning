@@ -37,6 +37,10 @@
         <apexClass>pdfPageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>refreshController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>

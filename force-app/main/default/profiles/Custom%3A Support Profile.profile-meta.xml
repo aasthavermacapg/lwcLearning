@@ -37,6 +37,10 @@
         <apexClass>pdfPageController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>refreshController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <pageAccesses>
         <apexPage>lmsVisualforcePage</apexPage>
