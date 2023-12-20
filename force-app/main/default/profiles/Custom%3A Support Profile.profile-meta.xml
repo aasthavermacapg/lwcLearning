@@ -38,6 +38,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>refreshContactController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>refreshController</apexClass>
         <enabled>false</enabled>
     </classAccesses>

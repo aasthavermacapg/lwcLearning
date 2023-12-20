@@ -33,6 +33,12 @@
                 <identifier>c_apexImperativelyParams</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>refreshLWC</componentName>
+                <identifier>c_refreshLWC</identifier>
+            </componentInstance>
+        </itemInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
